@@ -1,0 +1,41 @@
+CÓMO EJECUTAR MALSCAN EN MAC
+
+OPCIÓN 1 - Desde Terminal, recomendada:
+
+1. Abre Terminal.
+2. Entra en la carpeta del proyecto. Ejemplo:
+   cd ~/Downloads/malscan_mac_fixed
+
+3. Da permisos al lanzador:
+   chmod +x ejecutar_app_mac.command
+
+4. Ejecuta:
+   ./ejecutar_app_mac.command
+
+
+OPCIÓN 2 - Ejecutar directamente Python:
+
+Desde la carpeta del proyecto:
+
+   python3 src/app.py
+
+
+SI MAC DICE QUE NO SE PUEDE ABRIR:
+
+Ejecuta esto dentro de la carpeta del proyecto:
+
+   chmod +x ejecutar_app_mac.command
+   xattr -d com.apple.quarantine ejecutar_app_mac.command
+
+Y vuelve a abrirlo.
+
+
+SI DICE "python3: command not found":
+
+Instala Python 3 desde:
+https://www.python.org/downloads/
+
+
+SI DICE "No module named tkinter":
+
+Instala Python desde python.org, porque algunas versiones de Homebrew pueden venir sin Tkinter correctamente configurado.
