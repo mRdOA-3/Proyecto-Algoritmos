@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "sospechoso_powershell.txt",
+        "contenido": "Archivo de prueba sospechoso.\n\npowershell -enc prueba\n",
+        "extension": ".txt"
+    },
+    {
+        "nombre": "malicioso_payload.txt",
+        "contenido": "Archivo de prueba malicioso.\n\nmalicious_payload\n",
+        "extension": ".txt"
+    },
+    {
+        "nombre": "malicioso_ransomware.txt",
+        "contenido": "Archivo de prueba malicioso.\n\nencrypt_all_files\n",
+        "extension": ".txt"
+    }
+]
