@@ -1,0 +1,3 @@
+Archivo de prueba sospechoso.
+
+cmd.exe /c whoami
